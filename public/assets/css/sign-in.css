@@ -1,0 +1,23 @@
+.sc-sign-in {
+    background: #EAE0F7;
+}
+
+.sc-sign-in .container {
+    height: 100vh;
+}
+
+.sc-sign-in .sign-in-card {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.sc-sign-in .sign-in-form {
+    gap: 20px;
+}
+
+.sc-sign-in .sign-in-form .logo {
+    max-width: 150px;
+    max-height: 150px;
+}

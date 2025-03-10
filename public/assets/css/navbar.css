@@ -1,0 +1,7 @@
+.navbar {
+    transition: var(--def-transition);
+}
+
+.navbar.active {
+    margin-left: var(--sidebar-width);
+}

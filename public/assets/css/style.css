@@ -1,0 +1,72 @@
+/* @import url('font_face.css'); */
+@import url('root.css');
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+#main_obj {
+    transition: var(--def-transition);
+}
+
+#main_obj.active {
+    margin-left: var(--sidebar-width);
+}
+
+/* 
+div.dt-container .dt-search input {
+    border: 1px solid #aaa;
+    border-radius: 60px !important;
+    padding: 5px 15px !important;
+    background-color: transparent;
+    color: inherit;
+    margin-left: 10px !important;
+    outline: solid 1px #00000000 !important;
+    transition: all 0.3s ease !important;
+}
+
+[type=search] {
+    -webkit-appearance: meter;
+    outline-offset: 0px !important;
+    transition: all 0.3s ease !important;
+}
+
+div.dt-container .dt-search input:focus {
+    outline: solid 1px !important;
+    transition: all 0.3s ease !important;
+}
+
+div.dt-container .dt-input {
+    border: 1px solid #aaa;
+    border-radius: 60px !important;
+    padding: 5px 10px !important;
+    background-color: transparent;
+    color: inherit;
+    margin-right: 10px !important;
+}
+
+div.dt-container .dt-paging .dt-paging-button:hover {
+    color: white !important;
+    border: 1px solid #fff !important;
+    background: var(--bs-primary) !important;
+}
+
+div.dt-container .dt-paging .dt-paging-button:active {
+    background: var(--bs-primary-border-subtle) !important;
+}
+
+div.dt-container .dt-paging .dt-paging-button {
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0px 0px !important;
+    margin-left: 12px !important;
+    text-decoration: none !important;
+    color: inherit !important;
+    border-radius: 100% !important;
+}
+
+.table-form-control {
+    width: 50% !important;
+    border-radius: 60px !important;
+    height: 31px !important;
+} */
